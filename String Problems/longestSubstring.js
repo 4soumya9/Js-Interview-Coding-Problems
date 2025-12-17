@@ -1,6 +1,6 @@
 function longestSubstring(str) {
   let start = 0;
-
+  let maxSubString = "";
   let maxLength = 0;
   let seen = new Set();
 
